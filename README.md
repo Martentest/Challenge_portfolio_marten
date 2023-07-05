@@ -14,7 +14,7 @@ test <B> GetISTQB PURPUROWY </B>
 
 # Zadanie 2
 
-## Podzadanie 1
+## Podzadanie 2
 
 <p><b>remaind_password_hyperlink_xpath</b>
 <ul>
