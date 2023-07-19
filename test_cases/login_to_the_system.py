@@ -28,7 +28,7 @@ class TestLoginPage(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
 
-    def test_login(self):
+    def test_login( self):
         user_login = LoginPage(self.driver)
         user_login.title_of_page()
         user_login.type_in_email('user09@getnada.com')
@@ -37,3 +37,4 @@ class TestLoginPage(unittest.TestCase):
         time.sleep(4)
         dashboard_page = Dashboard(self.driver)
         dashboard_page.title_of_page()
+
