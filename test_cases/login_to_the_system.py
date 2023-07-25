@@ -25,8 +25,8 @@ class TestLoginPage(unittest.TestCase):
         self.driver.implicitly_wait(IMPLICITLY_WAIT)
 
     @classmethod
-    def tearDown(self):
-        self.driver.quit()
+#    def tearDown(self):
+#        self.driver.quit()
 
     def test_login( self):
         user_login = LoginPage(self.driver)
